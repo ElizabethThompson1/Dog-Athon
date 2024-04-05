@@ -9,12 +9,13 @@ module.exports = {
         'custom-cream': '#E7D0BF',
       },
       fontFamily: {
-        'custom': ['YourFontName', 'sans-serif'],
+        'serif': ['Playfair Display', 'serif'], // Preserving existing serif setup
+        'sans': ['Poppins', 'Roboto', 'sans-serif'], // Updating sans-serif setup to 'Poppins' and 'Roboto'
       },
     },
   },
   variants: {
-    extend: {},
+extend: {},
   },
   plugins: [],
 }
