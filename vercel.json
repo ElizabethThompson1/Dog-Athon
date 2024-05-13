@@ -1,0 +1,17 @@
+{
+    "version": 2,
+    "builds": [
+        {
+            "src": "dog-athon/client/package.json",
+            "use": "@vercel/static-build"
+        },
+        {
+            "src": "dog-athon/sanity",
+            "use": "@vercel"
+        },
+        {
+            "src": "dog-athon/server",
+            "use": "@vercel/node"
+        }
+    ]
+}
