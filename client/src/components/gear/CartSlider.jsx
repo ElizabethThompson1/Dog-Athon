@@ -15,7 +15,7 @@ const CartSlider = () => {
 
     const fetchGearData = async () => {
         try {
-            const response = await axios.get('https://dog-athon.sanity.studio/gear/');
+            const response = await axios.get('http://localhost:3309/gear/');
             setGearData(response.data);
         } catch (error) {
             console.error('Error fetching gear:', error);
